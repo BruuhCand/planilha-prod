@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Marko+One&family=Nunito+Sans:opsz@6..12&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;
+}
+
+header{
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f17ea1;
+    color: #ffff;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Marko One', serif;
+    
+    
+}
+
+.div1{
+    font-size: 60px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Marko One', serif;
+    text-align: center;
+    color: #f17ea1;
+    padding: 50px 0;
+    text-shadow: 2px 2px 4px #ffff;
+}
+
+label{
+    font-size: 35px;
+    margin-top: 50px;
+    color: #ec4174;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Marko One', serif;
+    text-shadow: 2px 2px 4px #f17ea1 ;
+}
+
+.div2{
+    text-align: center;
+
+}
+
+input{
+    border-radius: 20px;
+    padding: 5px;
+    width: 250px;
+    margin: 30px 0px;
+    height: 20px;
+    border: 2px solid #ffff;
+}
+
+button{
+    height: 60px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #ec4174;
+    border: none;
+    color: #ffe4e1;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+button:hover{
+background-color: #f17ea1;
+}
+
+.tabela{
+    border-collapse: collapse;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 100px;
+    width: 70%;
+    
+}
+
+th, td{
+    border: 1px #f17ea1 solid;
+    padding: 10px;
+    
+}
+
+th{
+    background-color: #ec4174;
+    font-family: 'Marko One', serif;
+    color: #ffe4e1;
+}
+
+td{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    
+}
+
+.acao{
+    width: 25%;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="CSS/indexCSS.css">
+    <script src="JS/main.js"></script>
+</head>
+<body>
+    <header>MEU E-COMMERCE</header>
+    <main>
+        <br><br>
+        <div class = "div1">Cadastramento de produtos</div>
+        <div class = "div2">
+            <div>
+                <label>Nome do Produto</label><br>
+                <input type="text" id="nomeProd" placeholder="produto" required>
+            </div>
+            <div>
+                <label>Valor do Produto</label><br>
+                <input type="number" id="valorProd" placeholder="R$ 0000.00" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button class="but" onclick="produto.salvar()" id = "btn">Salvar</button>
+                <button class ="but" onclick="produto.cancelar()">Cancelar</button>
+            </div>
+        </div>
+        <table class="tabela">
+            <thead>
+                <th style = "width: 15%;">ID</th>
+                <th style = "width: 30%;">NOME</th>
+                <th>VALOR</th>
+                <th class = "acao">AÇÕES</th>
+            </thead>
+            <tbody id = "tbody">
+                <!-- --<tr>
+                    <td style = "width: 15%;">1</td>
+                    <td style = "width: 30%;">mesa</td>
+                    <td>200</td>
+                    <td class = "acao">
+                        <img src="IMAGEM/editar.png" alt="edit" onclick="">
+                        <img src="IMAGEM/lixo.png" alt="excluir" onclick="">
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </main>
+    <br><br>
+</body>
+</html>
